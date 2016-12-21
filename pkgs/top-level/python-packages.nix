@@ -31698,6 +31698,8 @@ EOF
     };
   };
 
+  selfspy = callPackage ../tools/misc/selfspy {};
+
 });
 
 in fix' (extends overrides packages)
